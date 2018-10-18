@@ -1,5 +1,7 @@
 ## Reverse SEO for the following links
 
+[![CircleCI](https://circleci.com/gh/govau/redirect-staging-apps.svg?style=svg)](https://circleci.com/gh/govau/redirect-staging-apps)
+
 Redirected below pages to standard 404.  <br/>
 Added robots.txt to disallow all crawlers
 
@@ -10,4 +12,3 @@ Added robots.txt to disallow all crawlers
 * uikit.apps.staging.digital.gov.au
 * service-manual.apps.platform.digital.gov.au
 * gov-au-beta-blue.apps.platform.digital.gov.au
-

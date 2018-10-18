@@ -1,0 +1,28 @@
+version: 2
+jobs:
+  deploy:
+    docker:
+      - image: govau/cf-cli
+    steps:
+      - checkout
+      - run:
+          name: Deploy
+          command: |
+            set -e
+
+            cf login -a https://api.system.b.cld.gov.au \
+              -o dta \
+              -s cto \
+              -u ci-dta-cto \
+              -p $CF_PASSWORD
+
+            cf push
+workflows:
+  version: 2
+  deploy:
+    jobs:
+      - deploy:
+          filters:
+            branches:
+              only:
+                - master
