@@ -1,16 +1,15 @@
 ---
-buildpack: staticfile_buildpack
-memory: 128MB
-instances: 1
-path: ./www
 applications:
 - name: redirect-staging-error
-
-routes:
-- route: content-guide.apps.staging.digital.gov.au
-- route: content-style-guide.apps.staging.digital.gov.au
-- route: dm-dev.apps.staging.digital.gov.au
-- route: gov-au-ui-kit-staging.apps.staging.digital.gov.au
-- route: uikit.apps.staging.digital.gov.au
-- route: service-manual.apps.platform.digital.gov.au
-- route: gov-au-beta-blue.apps.platform.digital.gov.au
+  buildpack: staticfile_buildpack
+  memory: 128MB
+  instances: 1
+  path: ./www
+  routes:
+  - route: content-guide.apps.staging.digital.gov.au
+  - route: content-style-guide.apps.staging.digital.gov.au
+  - route: dm-dev.apps.staging.digital.gov.au
+  - route: gov-au-ui-kit-staging.apps.staging.digital.gov.au
+  - route: uikit.apps.staging.digital.gov.au
+  - route: service-manual.apps.platform.digital.gov.au
+  - route: gov-au-beta-blue.apps.platform.digital.gov.au
