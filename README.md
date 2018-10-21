@@ -1,14 +1,6 @@
-## Reverse SEO for the following links
+# Remove old staging apps from search engines
 
 [![CircleCI](https://circleci.com/gh/govau/redirect-staging-apps.svg?style=svg)](https://circleci.com/gh/govau/redirect-staging-apps)
-
-* content-guide.apps.staging.digital.gov.au
-* content-style-guide.apps.staging.digital.gov.au
-* dm-dev.apps.staging.digital.gov.au
-* gov-au-ui-kit-staging.apps.staging.digital.gov.au
-* uikit.apps.staging.digital.gov.au
-* service-manual.apps.platform.digital.gov.au
-* gov-au-beta-blue.apps.platform.digital.gov.au
 
 > To properly prevent your URL from appearing in Google Search results, you should password-protect the files on your server or use the noindex meta tag or response header (or remove the page entirely).
 

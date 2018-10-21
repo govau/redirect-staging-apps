@@ -9,6 +9,7 @@ applications:
   - route: content-guide.apps.staging.digital.gov.au
   - route: content-style-guide.apps.staging.digital.gov.au
   - route: dm-dev.apps.staging.digital.gov.au
+  - route: dta.apps.staging.digital.gov.au
   - route: gov-au-ui-kit-staging.apps.staging.digital.gov.au
   - route: uikit.apps.staging.digital.gov.au
   - route: service-manual.apps.platform.digital.gov.au
